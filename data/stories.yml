@@ -76,6 +76,33 @@ stories:
   - intent: Whatistotalironbindingcapacity
   - action: utter_Whatistotalironbindingcapacity
 
+- story: Howdoesibuprofenleadeventuallytoirondeficiencyanemia
+  steps:
+  - intent: Howdoesibuprofenleadeventuallytoirondeficiencyanemia
+  - action: utter_Howdoesibuprofenleadeventuallytoirondeficiencyanemia
+
+
+- story: Whatisthalassemia
+  steps:
+  - intent: Whatisthalassemia
+  - action: utter_Whatisthalassemia
+
+- story: Whatarethehemoglobinlevelsthatindicateaneedforabloodtransfusion
+  steps:
+  - intent: Whatarethehemoglobinlevelsthatindicateaneedforabloodtransfusion
+  - action: utter_Whatarethehemoglobinlevelsthatindicateaneedforabloodtransfusion
+
+- story: Whatisanupperendoscopy
+  steps:
+  - intent: Whatisanupperendoscopy
+  - action: utter_Whatisanupperendoscopy
+
+
+- story: WhydoesTylenolnotcauseGIbleeding
+  steps:
+  - intent: WhydoesTylenolnotcauseGIbleeding
+  - action: utter_WhydoesTylenolnotcauseGIbleeding
+
 
 
 

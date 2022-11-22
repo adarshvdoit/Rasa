@@ -13,6 +13,11 @@ intents:
   - Whatisanemiaofchronicdisease
   - Whatexactlydovitalsignsinclude
   - Whatistotalironbindingcapacity
+  - Howdoesibuprofenleadeventuallytoirondeficiencyanemia
+  - Whatisthalassemia
+  - Whatarethehemoglobinlevelsthatindicateaneedforabloodtransfusion
+  - Whatisanupperendoscopy
+  - WhydoesTylenolnotcauseGIbleeding
   - Topic_Anemia
   - Topic_AnemiaType
   - Topic_SymptomsofAnemia
@@ -95,6 +100,35 @@ responses:
       Transferrin is the protein that binds to and transports iron through to blood to the destination tissues/organs
       Transferrin is elevated in conditions where iron stores in the body are low and depressed in conditions where iron stores in the body are high
       Body regulates transferrin levels based on the demand for iron
+
+  utter_Howdoesibuprofenleadeventuallytoirondeficiencyanemia:
+  - text: Ibuprofen is a reversible cyclo-oxygenase (enzyme) inhibitor and, as a result, decreases the production of prostaglandins 
+      Prostaglandins are important for mucus production and protection of the stomach lining from gastric acid
+      With low levels of prostaglandins, the mucosa of the stomach is exposed to acid leading to ulcer formation and bleeding, which can eventually become heavy
+
+
+
+  utter_Whatisthalassemia:
+  - text: Thalassemia indicates that there is an abnormality with the hemoglobin chain within red blood cells (usually each RBC has two alpha chains and two beta chains)
+      If there is an inherited mutation affecting one or more of these chains, thalassemia results and can lead to a severe anemia requiring chronic blood transfusions 
+      Mild forms of thalassemia can be asymptomatic and are known as alpha thalassemia minor and beta thalassemia minor
+      Severe forms of thalassemia are known as thalassemia major
+      More details will be explained in later questions
+
+  utter_Whatarethehemoglobinlevelsthatindicateaneedforabloodtransfusion:
+  - text: Transfusion is necessary when the hemoglobin level drops below 7.0 g/dL in most patients
+      Exception is in patients with ischemic cardiac disease, in which the transfusion threshold is 9.0 g/dL
+
+  utter_Whatisanupperendoscopy:
+  - text: An upper endoscopy is a scope that is inserted into the patient’s upper GI tract (proximal to the 2nd part of the duodenum) to look for issues with the esophagus, stomach, and proximal duodenum
+      This is an invasive study that should be performed after lab studies are completed (only time this is done urgently is if the condition is life-threatening) 
+
+
+  utter_WhydoesTylenolnotcauseGIbleeding:
+  - text: Unlike NSAIDs, Tylenol inhibits cyclo-oxygenase in the central nervous system and not in the peripheral tissues/blood vessels 
+      As a result, Tylenol does not affect prostaglandin production in the GI tract, making the possibility of ulcer formation minimal 
+
+
 
   utter_Topic_Anemia:
   - text: "Anemia is a condition in which you lack enough healthy red blood cells to carry adequate oxygen to your body's tissues. Having anemia, also referred to as low hemoglobin, can make you feel tired and weak."

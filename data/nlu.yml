@@ -274,6 +274,37 @@ nlu:
     - explain total iron binding capacity?
     - define total iron binding capacity?
 
+- intent: Howdoesibuprofenleadeventuallytoirondeficiencyanemia
+  examples: |
+    - How does ibuprofen lead eventually to iron deficiency anemia?
+    - What does ibuprofen lead eventually to iron deficiency anemia?
+    
+
+- intent: Whatisthalassemia
+  examples: |
+    - What is thalassemia?
+    - Define is thalassemia?
+    - Explain is thalassemia?
+
+
+- intent: Whatarethehemoglobinlevelsthatindicateaneedforabloodtransfusion
+  examples: |
+    - What are the hemoglobin levels that indicate a need for a blood transfusion?
+    - Define the hemoglobin levels that indicate a need for a blood transfusion?
+    - Explain hemoglobin levels that indicate a need for a blood transfusion?
+
+- intent: Whatisanupperendoscopy
+  examples: |
+    - What is an upper endoscopy?
+    - Explain is an upper endoscopy?
+    - Define an upper endoscopy?
+    
+- intent: WhydoesTylenolnotcauseGIbleeding
+  examples: |
+    - Why does Tylenol not cause GI bleeding?
+    - explain Tylenol does not cause GI bleeding?
+    - Why doesn't Tylenol cause GI bleeding?
+
 
 
 - intent: Dont_know
