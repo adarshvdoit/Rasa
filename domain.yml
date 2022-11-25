@@ -18,6 +18,25 @@ intents:
   - Whatarethehemoglobinlevelsthatindicateaneedforabloodtransfusion
   - Whatisanupperendoscopy
   - WhydoesTylenolnotcauseGIbleeding
+  - Whatisaspherocyte
+  - WhatisadirectCoombstest
+  - Whatismicroangiopathichemolyticanemia
+  - Whatisparoxysmalnocturnalhemoglobinuria
+  - WhatisG6PDandhowdoesitleadtoextravascularhemolysis
+  - Whatisareticulocytecount
+  - Whatisbluelightphototherapy
+  - Whatistheosmoticfragilitytest
+  - Whatistheacidifiedglycerollysistest
+  - WhyisthereincreasedMCHCandnegativeCoombstestinhereditaryspherocytosis
+  - Whyisfolicacidsupplementationhelpfulinthetreatmentofhereditaryspherocytosis
+  - WhatisthedifferencebetweenhemoglobinFandhemoglobinA
+  - Whatisthesignificanceofdarkurine
+  - Whatisacuteliverfailure
+  - Whatissepticshock
+  - Whatisglomerulonephritis
+  - Howdoglucocorticoidshelpinthetreatmentofdruginducedhemolyticanemia
+  - Whyishaptoglobindecreasedinhemolyticanemia
+  - Whatisextramedullaryhematopoeisis
   - Topic_Anemia
   - Topic_AnemiaType
   - Topic_SymptomsofAnemia
@@ -127,6 +146,133 @@ responses:
   utter_WhydoesTylenolnotcauseGIbleeding:
   - text: Unlike NSAIDs, Tylenol inhibits cyclo-oxygenase in the central nervous system and not in the peripheral tissues/blood vessels 
       As a result, Tylenol does not affect prostaglandin production in the GI tract, making the possibility of ulcer formation minimal 
+
+  utter_Whatisaspherocyte:
+  - text: A spherocyte is a red blood cell that has less “central pallor” than a typical RBC
+        Key thing to note is that both spherocyte and normal RBCs are round
+        Reason for this is that a spherocyte has mutations in membrane proteins which cause it to have less overall surface area
+        This creates an imbalance between the amount of hemoglobin within the cell and the surrounding membrane (since the hemoglobin is a red color when attached to oxygen, this creates a darker appearance to the cell)
+
+  utter_WhatisadirectCoombstest:
+  - text: This process begins with taking a blood sample from a patient with an autoimmune hemolytic anemia and exposing this blood to a “Coombs reagent” which binds to human antibodies
+        Since an autoimmune hemolytic anemia has antibodies bound to RBC surfaces, the Coombs reagent will bind to this surface-bound antibodies
+        This binding of the Coombs reagent will create clumping, which is seen in the blood sample and indicates a positive test (presence of autoimmune antibodies to RBCs)
+
+  
+  utter_Whatismicroangiopathichemolyticanemia:
+  - text: Damage to RBCs due to increased turbulence or shear forces within the blood vessels
+        This is usually due to fibrin formation and deposition within blood vessels and resultant damage to RBCs upon contact  
+
+
+
+  utter_Whatisparoxysmalnocturnalhemoglobinuria:
+  - text: Caused by a mutation that prevents formation of a GPI anchor for RBC membrane proteins
+        GPI is necessary to attach proteins such as CD59 to RBC surface
+        Results in a loss of CD59, which prevents complement-mediated destruction of RBCs
+        Complement is a component of the body’s innate immune system that helps destroy foreign cells/proteins
+        As a result, host RBCs are destroyed by their own immune systems  
+
+    
+  utter_WhatisG6PDandhowdoesitleadtoextravascularhemolysis:
+  - text: Glucose-6 phosphate dehydrogenase deficiency involves an inherited deficiency of the aforementioned enzyme, which results in a lack of NADPH production
+        This NADPH is critical for removal of reactive oxygen radicals, which are damaging to RBC hemoglobin 
+        Deficiency results in hemoglobin and RBC membrane damage leading to removal of these cells by the spleen 
+
+
+  utter_Whatisareticulocytecount:
+  - text: Reticulocytes are precursor RBCs that are released by the bone marrow, especially in situations of RBC deficiency 
+            Normal reticulocyte count is between 0.5% - 2.5% 
+            However, more important is determine if the reticulocyte count shows an appropriate response to the decreased Hb level
+            If Hb is low, then expected reticulocyte count should be greater than 2.5% if bone marrow is functioning normally 
+
+  utter_Whatisbluelightphototherapy:
+  - text: This is a type of light therapy that involves shining fluorescent light onto bare skin
+        Certain wavelengths of light can penetrate the skin and convert the bilirubin into a water-soluble form
+        This helps the newborn handle the excessive load of unconjugated bilirubin and prevents neurological complications such as kernicterus (damage to the brain)
+
+
+  utter_Whatistheosmoticfragilitytest:
+  - text: This is the standard test for diagnosis of hereditary spherocytosis, in which RBCs are placed in hypotonic saline solutions (decreased saline solution concentration relative to RBC cytoplasm)
+        This will cause the RBCs to swell up due to osmosis and since the RBC membrane is already altered due to surface protein mutations, the cell is more likely to rupture (diagnostic for spherocytosis)
+ 
+
+  utter_Whatistheacidifiedglycerollysistest:
+  - text: This test involves putting the RBCs in an acidified hypotonic glycerol solution and determining how much hemolysis occurs 
+        Once again, since hereditary spherocytosis involves less membrane surface area, the membrane is less flexible and more likely to burst when swollen with fluid 
+
+
+  utter_WhyisthereincreasedMCHCandnegativeCoombstestinhereditaryspherocytosis:
+  - text: Increased mean cell hemoglobin concentration is found in hereditary spherocytosis because the mutation of ankyrin and spectrin membrane proteins causes the RBC membrane to be stiffer and less flexible
+        As a result, there is less membrane available for distention upon exposure to hypotonic solutions and less membrane relative to the hemoglobin within the RBC
+        This is why the MCHC is increased and is a cardinal feature of hereditary spherocytosis s
+        Coombs test is negative in hereditary spherocytosis because the issue is a mutation in the proteins of the membrane, not an autoantibody-mediated attack on RBCs 
+
+
+  utter_Whyisfolicacidsupplementationhelpfulinthetreatmentofhereditaryspherocytosis:
+  - text: Folic acid is critical for the conversion of uracil to thymidine in the nuclei of developing RBCs
+        Hereditary spherocytosis is associated with hemolysis and this results in an reticulocytosis; reticulocytes have nuclei and require large amounts of folate for DNA maturation and development 
+        Folate stores can be used up quickly in these patients and, therefore, folate supplementation will be helpful to support the increase in reticulocyte production 
+
+  utter_WhatisthedifferencebetweenhemoglobinFandhemoglobinA:
+  - text: Hemoglobin F is fetal hemoglobin and has a higher affinity for oxygen than Hemoglobin A; HbF is found more in fetuses and neonates and has two alpha chains and two gamma chains
+        HbF is replaced by HbA upon birth over the course of a few months 
+        HbA is the adult form of hemoglobin and is the Hb found in the highest concentration in healthy adults; the chain configuration of HbA is two alpha chains and two beta chains  
+  
+  utter_Whatisthesignificanceofdarkurine:
+  - text: Dark urine is an indication of unusual waste products being excreted from the body; possible causes include
+        Buildup of water-soluble conjugated bilirubin in the blood (due to bile duct failure or failure to excrete bile)
+        Release of hemoglobin into the urine via the kidney due to intravascular hemolysis and glomerular filtration of free Hb
+        Muscle breakdown and release of myoglobin into the urine
+ 
+
+  utter_Whatisacuteliverfailure:
+  - text: Sudden onset and severe damage to the liver, resulting in failure of its productive functions 
+        Can be due to viral hepatitis, toxins, or drugs
+        Signs that indicate liver failure include prolonged coagulation times (due to liver being the site of synthesis of coagulation proteins), low albumin levels, and symptoms of encephalopathy (mental status changes, neurologic issues) 
+ 
+
+  utter_Whatissepticshock:
+  - text: Systemic inflammatory response syndrome is defined as (2 of 4 required)
+        Tachycardia (HR > 90 bpm)
+        Tachypnea (RR > 20/minute)
+        Fever or hypothermia (temperature >38C or <36C)
+        Leukocytosis or leukopenia (WBC > 12,000mm3 or <4000/mm3)
+        Sepsis is SIRS + source of infection
+        Septic shock is sepsis + hypotension that does not response to IV bolus of fluids
+ 
+
+  utter_Whatisglomerulonephritis:
+  - text: Glomerulonephritis is a condition involving inflammation of the glomerulus (blood filtration capillary network of the kidney) 
+        This leads to a constellation of symptoms
+        Elevated blood pressure
+        Poor filtration of blood means that fluid is retained, leading to increased blood pressure
+        RBCs and protein in the urine
+        Damaged capillaries of the glomerulus lead to leakage of RBCs and protein into the urine (seen on urinalysis) 
+        RBC casts 
+        If RBCs are released at the level of the glomerulus, casts are formed when these RBCs pass through the terminal part of the kidney tubules (large number of RBCs within a protein tubular coating)
+        Elevated levels of BUN and creatinine 
+        Poor filtration of urea and creatinine due to glomerular damage leading to buildup of these waste products in the bloodstream
+ 
+
+
+  utter_Whyishaptoglobindecreasedinhemolyticanemia:
+  - text: Haptoglobin is a protein produced by the liver that binds to free hemoglobin in the circulation 
+        If haptoglobin levels are low, this is an indication that there is large amount of free hemoglobin in the circulation 
+
+
+
+  utter_Howdoglucocorticoidshelpinthetreatmentofdruginducedhemolyticanemia:
+  - text: Glucocorticoids suppress the immune system and response of the body 
+        The drug induced hemolytic anemia is a autoimmune reaction to the drug and this will be reduced by corticosteroids suppressing cytokine formation and immune activity 
+
+
+  utter_Whatisextramedullaryhematopoeisis:
+  - text: Normally RBCs are produced by the medulla of the bone marrow of long bones; however, if there is a massive hemolysis or loss of RBCs occurring, sometimes the medulla of the bone marrow cannot keep up with the demand for more RBCs
+        In these situations, other organs and bones assist with taking up the load
+        These can include the liver, spleen, and smaller bones such as the skull, jaw, etc. 
+        This is a dangerous sign and the cause must be resolved soon because these extramedullary sites are enlarged and damaged in the process 
+        Also their function are diverted away from their normal, daily functions
+        Body cannot maintain this high level of hematopoiesis for long (too many resources being used up)
 
 
 

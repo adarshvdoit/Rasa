@@ -103,8 +103,107 @@ stories:
   - intent: WhydoesTylenolnotcauseGIbleeding
   - action: utter_WhydoesTylenolnotcauseGIbleeding
 
+- story: Whatisaspherocyte
+  steps:
+  - intent: Whatisaspherocyte
+  - action: utter_Whatisaspherocyte
 
 
+- story: WhatisadirectCoombstest
+  steps:
+  - intent: WhatisadirectCoombstest
+  - action: utter_WhatisadirectCoombstest
+
+- story: Whatismicroangiopathichemolyticanemia
+  steps:
+  - intent: Whatismicroangiopathichemolyticanemia
+  - action: utter_Whatismicroangiopathichemolyticanemia
+
+
+
+- story: Whatisparoxysmalnocturnalhemoglobinuria
+  steps:
+  - intent: Whatisparoxysmalnocturnalhemoglobinuria
+  - action: utter_Whatisparoxysmalnocturnalhemoglobinuria
+
+
+
+- story: WhatisG6PDandhowdoesitleadtoextravascularhemolysis
+  steps:
+  - intent: WhatisG6PDandhowdoesitleadtoextravascularhemolysis
+  - action: utter_WhatisG6PDandhowdoesitleadtoextravascularhemolysis
+
+
+- story: Whatisareticulocytecount
+  steps:
+  - intent: Whatisareticulocytecount
+  - action: utter_Whatisareticulocytecount
+
+- story: Whatisbluelightphototherapy
+  steps:
+  - intent: Whatisbluelightphototherapy
+  - action: utter_Whatisbluelightphototherapy
+
+- story: Whatistheosmoticfragilitytest
+  steps:
+  - intent: Whatistheosmoticfragilitytest
+  - action: utter_Whatistheosmoticfragilitytest
+
+- story: Whatistheacidifiedglycerollysistest
+  steps:
+  - intent: Whatistheacidifiedglycerollysistest
+  - action: utter_Whatistheacidifiedglycerollysistest
+
+- story: WhyisthereincreasedMCHCandnegativeCoombstestinhereditaryspherocytosis
+  steps:
+  - intent: WhyisthereincreasedMCHCandnegativeCoombstestinhereditaryspherocytosis
+  - action: utter_WhyisthereincreasedMCHCandnegativeCoombstestinhereditaryspherocytosis
+
+- story: Whyisfolicacidsupplementationhelpfulinthetreatmentofhereditaryspherocytosis
+  steps:
+  - intent: Whyisfolicacidsupplementationhelpfulinthetreatmentofhereditaryspherocytosis
+  - action: utter_Whyisfolicacidsupplementationhelpfulinthetreatmentofhereditaryspherocytosis
+
+- story: WhatisthedifferencebetweenhemoglobinFandhemoglobinA
+  steps:
+  - intent: WhatisthedifferencebetweenhemoglobinFandhemoglobinA
+  - action: utter_WhatisthedifferencebetweenhemoglobinFandhemoglobinA
+
+
+- story: Whatisthesignificanceofdarkurine
+  steps:
+  - intent: Whatisthesignificanceofdarkurine
+  - action: utter_Whatisthesignificanceofdarkurine
+
+- story: Whatisacuteliverfailure
+  steps:
+  - intent: Whatisacuteliverfailure
+  - action: utter_Whatisacuteliverfailure
+
+- story: Whatissepticshock
+  steps:
+  - intent: Whatissepticshock
+  - action: utter_Whatissepticshock
+
+- story: Howdoglucocorticoidshelpinthetreatmentofdruginducedhemolyticanemia
+  steps:
+  - intent: Howdoglucocorticoidshelpinthetreatmentofdruginducedhemolyticanemia
+  - action: utter_Howdoglucocorticoidshelpinthetreatmentofdruginducedhemolyticanemia
+
+- story: Whatisglomerulonephritis
+  steps:
+  - intent: Whatisglomerulonephritis
+  - action: utter_Whatisglomerulonephritis
+
+- story: Whyishaptoglobindecreasedinhemolyticanemia
+  steps:
+  - intent: Whyishaptoglobindecreasedinhemolyticanemia
+  - action: utter_Whyishaptoglobindecreasedinhemolyticanemia
+
+- story: Whatisextramedullaryhematopoeisis
+  steps:
+  - intent: Whatisextramedullaryhematopoeisis
+  - action: utter_Whatisextramedullaryhematopoeisis
 
 
 

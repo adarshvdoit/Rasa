@@ -305,7 +305,121 @@ nlu:
     - explain Tylenol does not cause GI bleeding?
     - Why doesn't Tylenol cause GI bleeding?
 
+- intent: Whatisaspherocyte
+  examples: |
+    - What is a spherocyte?
+    - Explain is a spherocyte?
+    - Define spherocyte?
+    
+- intent: WhatisadirectCoombstest
+  examples: |
+    - What is a direct Coombs test?
+    - Coombs test
+    - How to perform Coombs test?
 
+    
+- intent: Whatismicroangiopathichemolyticanemia
+  examples: |
+    - What is microangiopathic hemolytic anemia?
+    - Explain microangiopathic hemolytic anemia?
+    - Define microangiopathic hemolytic anemia?
+
+
+    
+- intent: Whatisparoxysmalnocturnalhemoglobinuria
+  examples: |
+    - What is paroxysmal nocturnal hemoglobinuria?
+    - explain paroxysmal nocturnal hemoglobinuria?
+    - Define paroxysmal nocturnal hemoglobinuria?
+
+
+    
+- intent: WhatisG6PDandhowdoesitleadtoextravascularhemolysis
+  examples: |
+    - What is G6PD and how does it lead to extravascular hemolysis?
+    - explain G6PD and how does it lead to extravascular hemolysis?
+    - explain G6PD
+    - explain G6PD and what it lead to extravascular hemolysis?
+
+
+    
+- intent: Whatisareticulocytecount
+  examples: |
+    - What is a reticulocyte count?
+    - explain reticulocyte count?
+    - Define reticulocyte count?
+
+- intent: Whatisbluelightphototherapy
+  examples: |
+    - What is blue light phototherapy?
+    - explain  blue light phototherapy?
+    - Define  blue light phototherapy?
+
+- intent: Whatistheosmoticfragilitytest
+  examples: |
+    - What is the osmotic fragility test?
+    - explain osmotic fragility test?
+    - Define osmotic fragility test?
+
+- intent: Whatistheacidifiedglycerollysistest
+  examples: |
+    - What Is The Acidified Glycerol Lysis Test?
+    - explain The Acidified Glycerol Lysis Test?
+    - Define The Acidified Glycerol Lysis Test?
+
+- intent: WhyisthereincreasedMCHCandnegativeCoombstestinhereditaryspherocytosis
+  examples: |
+    - Why is there increased MCHC and negative Coombs test in hereditary spherocytosis?
+    - explain why is there increased MCHC and negative Coombs test in hereditary spherocytosis?
+
+- intent: Whatisthesignificanceofdarkurine
+  examples: |
+    - What is the significance of dark urine?
+    - Explain the significance of dark urine?
+    - Define the significance of dark urine?
+
+- intent: Whatisacuteliverfailure
+  examples: |
+    - What is extramedullary hematopoeisis?
+    - Explain extramedullary hematopoeisis?
+    - Define extramedullary hematopoeisis?
+
+- intent: Whatissepticshock
+  examples: |
+    - What is septic shock?
+    - Explain septic shock?
+    - Define septic shock?
+    - Septic shock?
+
+- intent: Howdoglucocorticoidshelpinthetreatmentofdruginducedhemolyticanemia
+  examples: |
+   - How do glucocorticoids help in the treatment of drug-induced hemolytic anemia?
+   - How do glucocorticoids help in the treatment of drug-induced hemolytic anemia?
+
+- intent: Whatisglomerulonephritis
+  examples: |
+    - What is glomerulonephritis?
+    - Define glomerulonephritis?
+    - Explain glomerulonephritis?
+    - glomerulonephritis?
+
+- intent: Whyishaptoglobindecreasedinhemolyticanemia
+  examples: |
+    - Why is haptoglobin decreased in hemolytic anemia?
+    - Why is haptoglobin decreased in hemolytic anemia?
+
+- intent: Whatisextramedullaryhematopoeisis
+  examples: |
+    - What is extramedullary hematopoeisis?
+    - Explain extramedullary hematopoeisis?
+    - Define extramedullary hematopoeisis?
+
+
+- intent: WhatisthedifferencebetweenhemoglobinFandhemoglobinA
+  examples: |
+    - What is the difference between hemoglobin F and hemoglobin A?
+    - Explain the difference between hemoglobin F and hemoglobin A?
+    - Define reticulocyte count?
 
 - intent: Dont_know
   examples: |
