@@ -421,6 +421,47 @@ nlu:
     - Explain the difference between hemoglobin F and hemoglobin A?
     - Define reticulocyte count?
 
+- intent: Whatisthesignificanceofthepatient’sfamilybeingfromtheMediterranean
+  examples: |
+    - What is the significance of the patient’s family being from the Mediterranean?
+    - Explain the significance of the patient’s family being from the Mediterranean?
+    - Define the significance of the patient’s family being from the Mediterranean?
+
+- intent: Whatisthesignificanceofthemalesonthemother’ssideofthepatient’sfamilyrequiringtransfusions
+  examples: |
+    - What is the significance of the males on the mother’s side of the patient’s family requiring transfusions?
+    - Explain the significance of the males on the mother’s side of the patient’s family requiring transfusions?
+    - Define the significance of the males on the mother’s side of the patient’s family requiring transfusions?
+
+- intent: Whydoesthispatienthavea2/6systolicejectionmurmurintheaorticarea
+  examples: |
+    - Why does this patient have a 2/6 systolic ejection murmur in the aortic area?
+    - Explain Why patient have a 2/6 systolic ejection murmur in the aortic area?
+    - Define Why patient have a 2/6 systolic ejection murmur in the aortic area?
+
+- intent: Howdoyoudifferentiatethalassemiafromirondeficiencyanemia
+  examples: |
+    - How do you differentiate thalassemia from iron deficiency anemia?
+    - How do you differentiate thalassemia from iron deficiency anemia?
+    
+- intent: Whatisalphathalassemia
+  examples: |
+    - What is alpha thalassemia?
+    - Explain alpha thalassemia?
+    - Define alpha thalassemia?
+
+- intent: Whatisbetathalassemia
+  examples: |
+    - What is beta thalassemia?
+    - Explain beta thalassemia?
+    - Define beta thalassemia?
+
+- intent: Whatishereditaryhemochromatosis
+  examples: |
+    - What is hereditary hemochromatosis?
+    - Explain hereditary hemochromatosis?
+    - Define hereditary hemochromatosis?    
+
 - intent: Dont_know
   examples: |
     - Do you know the answer

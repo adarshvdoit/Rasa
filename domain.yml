@@ -37,6 +37,13 @@ intents:
   - Howdoglucocorticoidshelpinthetreatmentofdruginducedhemolyticanemia
   - Whyishaptoglobindecreasedinhemolyticanemia
   - Whatisextramedullaryhematopoeisis
+  - Whatisthesignificanceofthepatient’sfamilybeingfromtheMediterranean
+  - Whatisthesignificanceofthemalesonthemother’ssideofthepatient’sfamilyrequiringtransfusions
+  - Whydoesthispatienthavea2/6systolicejectionmurmurintheaorticarea
+  - Howdoyoudifferentiatethalassemiafromirondeficiencyanemia
+  - Whatisalphathalassemia
+  - Whatisbetathalassemia
+  - Whatishereditaryhemochromatosis
   - Topic_Anemia
   - Topic_AnemiaType
   - Topic_SymptomsofAnemia
@@ -274,7 +281,64 @@ responses:
         Also their function are diverted away from their normal, daily functions
         Body cannot maintain this high level of hematopoiesis for long (too many resources being used up)
 
+  utter_Whatisthesignificanceofthepatient’sfamilybeingfromtheMediterranean:
+  - text: Mediterranean families have a higher likelihood of having a thalassemia due to family inheritance and higher prevalence in these regions
+        However, this is a trap in this question because Mediterranean patients can also have iron deficiency anemia; test creators like to throw in tricks like these to confuse students 
 
+  utter_Whatisthesignificanceofthemalesonthemother’ssideofthepatient’sfamilyrequiringtransfusions:
+  - text : The fact that the males on the mother’s side of the family have required transfusions indicates that this condition is X-linked 
+        Males have only one X chromosome so if there is a mutation on an X-chromosome, the male will automatically develop this condition; females, on the other hand, have two X-chromosomes so one mutated X-chromosome will not present or will present very mildly 
+        The fact that transfusions were required indicates a severe form of the disease; however, thalassemias are inherited autosomal recessive so this was another trap to confuse students
+        An autosomal recessive condition will affect males and females equally  
+
+  utter_Whydoesthispatienthavea2/6systolicejectionmurmurintheaorticarea:
+  - text : When a patient has a significant anemia, there are fewer RBCs in the circulation and this reduces the resistance to blood flow 
+        Reduced resistance to blood flow leads to faster blood flow -> increased turbulence 
+        This turbulence will be heard in the aortic area during systole because the left ventricle generates the most pressure upon contraction
+        Additionally, when there is anemia, the tissues are deprived of oxygen and will stimulate the heart to pump faster and harder -> also exacerbates the murmur 
+
+  utter_Howdoyoudifferentiatethalassemiafromirondeficiencyanemia:
+  - text : 1. RBC count
+        Thalassemia has abnormal RBCs, but usually has a normal RBC count 
+        However, iron deficiency anemia has a low RBC count due to lack of iron to sustain and produce RBCs 
+        2. Platelet count
+        Thalassemia will have a normal platelet count because platelets are unaffected in this condition 
+        However, iron deficiency anemia can have an elevated platelet count due to reactivity secondary to bone marrow hyperactivation to increase production of RBCs 
+        3. Associated symptoms 
+        If there is extramedullary hematopoiesis, severe symptoms, or need for multiple transfusions, this is probably a severe form of thalassemia (especially if early on in life)
+        4. History
+        This can be a trap, but certain indications in the history can point towards a diagnosis of thalassemia vs. iron deficiency anemia 
+        Iron deficiency anemia – hemorrhage, poor nutrition, heavy menses, malabsorption, etc.
+        Thalassemia – young age, family history, autosomal recessive inheritance pattern, history of multiple transfusions, evidence of extramedullary hematopoiesis  
+ 
+  utter_Whatisalphathalassemia:
+  - text: There are four total genes for the alpha-globin chains
+        If 1 gene is deleted, then the patient is considered a silent carrier (may have mildly decreased MCV or Hb)
+        If 2 genes are deleted, this is considered thalassemia trait and is usually asymptomatic but also associated commonly with a microcytic anemia 
+        If 3 genes are deleted, this is called Hb H disease and is associated with a moderate to severe microcytic anemia (significant enough to cause major symptoms)
+        If 4 genes are deleted, then this is alpha-thalassemia major and can lead to hydrops fetalis (fluid buildup and swelling of the baby -> death), where the production of RBCs cannot keep up with the demand and the liver fails
+        Without the liver, there is poor protein production and without adequate protein levels, fluid cannot be kept within the vessels and leaks out 
+        With fluid leaking out of vessels, there is poor circulation and eventual demise
+
+  utter_Whatisbetathalassemia:
+  - text: Three types of beta-thalassemia (only two beta-globin chain genes)
+        Beta-thalassemia minor
+        One gene is affected resulting in either reduced or absent production of beta chains from that chromosome, resulting in mild microcytic anemia
+        Second gene is functioning normally 
+        Beta-thalassemia intermedia
+        Both genes can have reduced beta-globin chain production
+        One gene has reduced beta-globin chain production while the other has absent production 
+        Moderate anemia results which can lead to extramedullary hematopoiesis and iron overload (secondary to transfusions)
+        Beta-thalassemia major
+        Both genes have absent or severely reduced beta-globin chain production
+        Severe anemia with definite extramedullary hematopoiesis
+        Patient cannot survive without transfusions and resultant iron overload is common even with precautionary measures 
+
+  utter_Whatishereditaryhemochromatosis:
+  - text: Inherited condition of iron overload in a patient due to excess absorption of iron from the GI tract (due to mutation of the homeostatic iron regulator gene)
+        This gene creates a protein that usually senses the amount of iron in the body; when mutated, it cannot determine iron levels appropriately and incorrectly senses the level as too low
+        Symptoms can include liver damage leading to cirrhosis, diabetes, bronze colored skin, and infertility (all of these are due to iron buildup and deposition)
+        Treatment is with regular phlebotomy (removal of venous blood to lower iron levels)
 
   utter_Topic_Anemia:
   - text: "Anemia is a condition in which you lack enough healthy red blood cells to carry adequate oxygen to your body's tissues. Having anemia, also referred to as low hemoglobin, can make you feel tired and weak."

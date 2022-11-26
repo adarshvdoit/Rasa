@@ -205,6 +205,40 @@ stories:
   - intent: Whatisextramedullaryhematopoeisis
   - action: utter_Whatisextramedullaryhematopoeisis
 
+- story: Whatisthesignificanceofthepatient’sfamilybeingfromtheMediterranean
+  steps:
+  - intent: Whatisthesignificanceofthepatient’sfamilybeingfromtheMediterranean
+  - action: utter_Whatisthesignificanceofthepatient’sfamilybeingfromtheMediterranean
+
+- story: Whatisthesignificanceofthemalesonthemother’ssideofthepatient’sfamilyrequiringtransfusions
+  steps:
+  - intent: Whatisthesignificanceofthemalesonthemother’ssideofthepatient’sfamilyrequiringtransfusions
+  - action: utter_Whatisthesignificanceofthemalesonthemother’ssideofthepatient’sfamilyrequiringtransfusions
+
+- story: Whydoesthispatienthavea2/6systolicejectionmurmurintheaorticarea
+  steps:
+  - intent: Whydoesthispatienthavea2/6systolicejectionmurmurintheaorticarea
+  - action: utter_Whydoesthispatienthavea2/6systolicejectionmurmurintheaorticarea
+
+- story: Howdoyoudifferentiatethalassemiafromirondeficiencyanemia
+  steps:
+  - intent: Howdoyoudifferentiatethalassemiafromirondeficiencyanemia
+  - action: utter_Howdoyoudifferentiatethalassemiafromirondeficiencyanemia
+
+- story: Whatisalphathalassemia
+  steps:
+  - intent: Whatisalphathalassemia
+  - action: utter_Whatisalphathalassemia
+
+- story: Whatisbetathalassemia
+  steps:
+  - intent: Whatisbetathalassemia
+  - action: utter_Whatisbetathalassemia
+
+- story: Whatishereditaryhemochromatosis
+  steps:
+  - intent: Whatishereditaryhemochromatosis
+  - action: utter_Whatishereditaryhemochromatosis
 
 
 - story: Topic_Anemia
